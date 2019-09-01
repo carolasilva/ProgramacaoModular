@@ -1,0 +1,1 @@
+Apesar de nós podermos utilizar o finalize(), o Garbage Collector do JVM não roda instantaneamente quando chamado, ele espera por um momento de ociosidade do processador. Por causa disso, não podemos garantir que assim que chamado ele liberará a parte necessária, podendo ocorrer erros nesse sentido.
